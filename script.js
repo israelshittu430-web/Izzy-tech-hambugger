@@ -12,10 +12,11 @@ document.addEventListener("DOMContentLoaded", function(){
     });
     // Handle window resize: auto-close mobile menu on desktop view
     window.addEventListener("resize", function(){
-        if(wiindow.innerWidth > 768){
+        if(this.window.innerWidth > 768){
             // on desktop, ensure menu is visible and hamburger is great
             navMenu.classList.remove("active")
             hamburger.classList.remove("active")
         };
     })
 })
+

@@ -95,13 +95,7 @@ header a {
     padding: 6px;
     z-index: 100;
 }
-.hambugger-line{
-    width: 25px;
-    height: 3px;
-    background-color: var(--text-light);
-    margin: 3px 0;
-    transition: var(--transition);
-}
+
 .hambugger-line{
     width: 25px;
     height: 3px;
@@ -115,7 +109,7 @@ header a {
     transform: rotate(45deg) translate(5px,5px);
 }
 .hamburgger.active .hambugger-line:nth-child(2) {
-    opacity: 0;
+    opacity: 50;
 }
 .hamburgger.active .hamburgger-line:nth-child(3){
     transform:rotate(-45deg) translate(7px, -6px);
